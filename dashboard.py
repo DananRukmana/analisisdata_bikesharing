@@ -83,7 +83,7 @@ ax.set_title("Pengaruh Cuaca terhadap Penyewaan Sepeda", fontsize=14, fontweight
 ax.legend(title="Kondisi Cuaca", loc="best", fontsize=10)
 st.pyplot(fig)
 
-st.subheader("Analisis Kondisi Pola Penyewaan Sepanjang Tahun")
+st.subheader("Analisis Kondisi Pola Penyewaan Sepanjang Hari Dengan Kelompok Jam")
 
 # Visualisasi 3: Peminjaman Sepeda Berdasarkan Waktu Penggunaan
 def kelompok_waktu(jam):
