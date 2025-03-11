@@ -27,12 +27,6 @@ ax.grid()
 st.pyplot(fig)
 
 st.subheader("Analisis Kondisi Saat Customer Melakukan Penyewaan")
-import streamlit as st
-import pandas as pd
-
-df_day = pd.read_csv("dbs/dataset/day.csv")
-df_hour = pd.read_csv("dbs/dataset/hour.csv")
-
 def kelompok_waktu(jam):
     if 0 <= jam < 6:
         return "Malam (00:00-05:59)"
